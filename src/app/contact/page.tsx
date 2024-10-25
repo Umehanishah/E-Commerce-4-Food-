@@ -10,7 +10,7 @@ export default function About() {
      </div>
 
       {/* 2nd Section */}
-  <section className="">
+  <section>
        <div className="grid grid-cols-2 gap-5 m-20 ">
        <div className="bg-[url('/contact-2.png')] bg-no-repeat bg-right-top bg-[length:150px_150px]">
         <Image width={500} height={400} src="/contact-3.png" alt="food" className="pt-20"/>
@@ -24,7 +24,7 @@ export default function About() {
            </section>
 
       {/* 3rd Section */}
-      <section className="">
+      <section>
        <div className="grid grid-cols-2 gap-5 m-20 ">
       
          <div>
@@ -34,7 +34,7 @@ export default function About() {
         </div>
           </div>
 
-      <div className="">
+      <div>
         <Image width={500} height={400} src="/contact-4.png" alt="food" className="pt-20"/>
         </div>
 

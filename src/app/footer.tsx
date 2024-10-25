@@ -1,4 +1,4 @@
-import Link from "next/link"
+
 
 function footer(){
     return(
@@ -19,7 +19,7 @@ function footer(){
         info@foodzero.com</p>
         </div>    
     
-    <div className="">
+    <div>
     <h3 className="text-2xl font-semibold">Never Miss a Recipe </h3>
     
     <div className="grid md:grid-cols-3 px-5 pt-10 pb-5 gap-96 ">

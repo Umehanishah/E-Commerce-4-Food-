@@ -202,7 +202,7 @@ export default function Home() {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit!</p>
     
     <p className="flex gap-2 text-sm text-black px-20 text-left mt-5">
-            Read More <img src="/arrow-2.png"></img> </p>
+            Read More <Image width={20} height={10} src="/arrow-2.png" alt="arrow"/> </p>
     </div>
 
     <div className="h-auto max-w-full rounded-lg">
@@ -220,7 +220,7 @@ export default function Home() {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit!</p>
     
     <p className="flex gap-2 text-sm text-black px-20 text-left mt-5">
-            Read More <img src="/arrow-2.png"></img> </p>
+    Read More <Image width={20} height={10} src="/arrow-2.png" alt="arrow"/> </p>
     </div>
 
 
@@ -268,7 +268,7 @@ export default function Home() {
 <div className="bg-white">
     <div className="h-auto max-w-full rounded-lg">
   <p className="text-base font-semibold text-black text-left pt-40 px-60">
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias consequuntur, nemo nobis minus laboriosam soluta vel dolores rerum quia explicabo itaque, voluptate earum ipsa ipsum aliquam consectetur ex est reprehenderit.</p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias consequuntur, nemo nobis minus laboriosam soluta vel dolores rerum quia explicabo itaque, voluptate earum ipsa ipsum aliquam consectetur ex est reprehenderit.</p>
             
     </div>
     <div className="-mt-20 px-60 float-right">
@@ -277,16 +277,16 @@ export default function Home() {
     </div>
 
     <div className="grid grid-cols-3 gap-1 ml-24 px-40 pt-20 pb-20">
-    <div className="">
+    <div>
     <Image width={80} height={80} src="/Avatar-3.png" alt="Avater"></Image>
     </div>
 
-    <div className="">
+    <div>
     <p className="text-lg font-semibold">John Doe</p>
     <p className="text-xs">Bloger</p>
     </div>
 
-    <div className="">
+    <div>
     <Image width={80} height={80} src="/arrow.png" alt="Avater"></Image>
     </div>
     </div>

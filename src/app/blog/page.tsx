@@ -29,7 +29,7 @@ export default function Home() {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit!</p>
     
     <p className="flex gap-2 text-sm text-black px-20 text-left mt-5">
-            Read More <img src="/arrow-2.png"></img> </p>
+            Read More <Image width={20} height={10} src="/arrow-2.png" alt="arrow"/> </p>
     </div>
 
     <div className="h-auto max-w-full rounded-lg">
@@ -47,7 +47,7 @@ export default function Home() {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit!</p>
     
     <p className="flex gap-2 text-sm text-black px-20 text-left mt-5">
-            Read More <img src="/arrow-2.png"></img> </p>
+    Read More <Image width={20} height={10} src="/arrow-2.png" alt="arrow"/></p>
     </div>
 
 
@@ -73,7 +73,7 @@ export default function Home() {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit!</p>
     
     <p className="flex gap-2 text-sm text-black px-20 text-left mt-5">
-            Read More <img src="/arrow-2.png"></img> </p>
+    Read More <Image width={20} height={10} src="/arrow-2.png" alt="arrow"/> </p>
     </div>
 
     <div className="h-auto max-w-full rounded-lg">
@@ -91,7 +91,7 @@ export default function Home() {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit!</p>
     
     <p className="flex gap-2 text-sm text-black px-20 text-left mt-5">
-            Read More <img src="/arrow-2.png"></img> </p>
+    Read More <Image width={20} height={10} src="/arrow-2.png" alt="arrow"/></p>
     </div>
     </div>
 
@@ -115,7 +115,7 @@ protection against diseases</h1>
     Lorem ipsum dolor sit, amet consectetur adipisicing elit!</p>
 
 <p className="flex gap-2 text-sm text-black px-20 text-left mt-5">
-    Read More <img src="/arrow-2.png"></img> </p>
+Read More <Image width={20} height={10} src="/arrow-2.png" alt="arrow"/> </p>
 </div>
 
 <div className="h-auto max-w-full rounded-lg">
@@ -133,7 +133,7 @@ protection against diseases</h1>
     Lorem ipsum dolor sit, amet consectetur adipisicing elit!</p>
 
 <p className="flex gap-2 text-sm text-black px-20 text-left mt-5">
-    Read More <img src="/arrow-2.png"></img> </p>
+Read More <Image width={20} height={10} src="/arrow-2.png" alt="arrow"/> </p>
 </div>
 </div>
 

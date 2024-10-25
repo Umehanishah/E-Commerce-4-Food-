@@ -8,13 +8,13 @@ export default function About() {
      </div>
 
       {/* 2nd Section */}
-  <section className="">
+  <section>
        <div className="grid grid-cols-2 gap-1 m-20 ">
          <div className="bg-[url('/about-9.png')] bg-no-repeat bg-right-top bg-[length:150px_150px]">
           <h1 className="text-6xl font-serif font-bold pt-20 text-lime-950">Our Story</h1>
           <p className="text-sm pt-5 pr-5 text-black ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis optio, quia cupiditate amet iste enim autem libero, et eaque minus odit porro nisi perferendis provident, vel repudiandae placeat officia quasi.</p>
           </div>
-          <div className="">
+          <div>
 
           <Image width={500} height={400} src="/about-2.png" alt="food" />
           </div>
@@ -23,7 +23,7 @@ export default function About() {
 
       {/* 3rd Section */}
         
-  <section className="">
+  <section>
        <div className="grid grid-cols-2 gap-10 m-10">
        
        <div className="text-center">
@@ -58,11 +58,11 @@ export default function About() {
       </section>
 
       {/* 5th Section */}
-       <section className="">
+       <section>
        <h1 className="text-6xl font-serif font-semibold pt-40 pb-20 text-center text-lime-950 bg-[url('/about-11.png')] bg-no-repeat bg-right-top bg-[length:400px_300px]">Sophisticated Process</h1>
         
        <div className="grid grid-cols-2 gap-10 m-10">
-       <div className="">
+       <div>
           <Image width={500} height={400} src="/about-6.png" alt="food" />
           
           <h1 className="text-6xl font-serif font-bold pt-60 text-lime-950"><span className="text-4xl">03.</span> Bake</h1>
@@ -73,7 +73,7 @@ export default function About() {
           
           </div>
 
-         <div className="">
+         <div>
           <h1 className="text-6xl font-serif font-bold pt-20 text-lime-950"><span className="text-4xl">01.</span> Slice</h1>
           <p className="text-sm pt-5 pr-10 text-black ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis optio, quia cupiditate amet iste enim autem libero, et eaque minus odit porro nisi perferendis provident, vel repudiandae placeat officia quasi.</p>
           
