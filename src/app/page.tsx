@@ -1,9 +1,10 @@
-import Image from "next/image"
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main className="title">
       {/* Hero Section */}
-      <section className="flex gap-2 items-center w-full bg-lime-950 ">
+      <section className="flex gap-2 items-center w-full bg-lime-950">
         {/* Left side */}
         <div className="flex-1 px-3 md:px-10 pt-3 md:pt-20">
           <h1 className="font-semibold md:font-bold mb-2 tracking-widest leading-none font-serif text-white text-3xl md:text-6xl">Healthy Eating is important part of lifestyle</h1>
@@ -13,9 +14,9 @@ export default function Home() {
             fugiat tenetur, impedit nulla eius dolore officia officiis. 
           </p>
           <div className="text-white pb-10 md:pb-40">
-          <Image width={40} height={100} src="/scroll.png" alt="food" />
+          <Image width={40} height={100} src="/scroll.png" alt="food"/>
           </div>
-          <Image width={500} height={400} src="/img-2.png" alt="food" className="w-full rounded-md" />
+          <Image width={500} height={400} src="/img-2.png" alt="food" className="w-full rounded-md"/>
          
          <p className="font-medium md:font-bold font-serif text-white pt-3 md:pt-10 text-xl md:text-2xl">Start to plan<br></br> your diet today</p>
          <p className="text-xs md:text-lg text-white pt-2 pb-20 text-justify">
@@ -31,9 +32,9 @@ export default function Home() {
           <Image width={792} height={931} src="/img-1.png" alt="food" className="w-full rounded-lg"/>
           </div>
           <div className="flex gap-2 items-center -mt-10 my-40">
-          <Image width={150} height={150} src="/spices1.png" alt="food" />
-          <Image width={150} height={150} src="/spices2.png" alt="food" />
-          <Image width={150} height={150} src="/spices3.png" alt="food" />
+          <Image width={150} height={150} src="/spices1.png" alt="food"/>
+          <Image width={150} height={150} src="/spices2.png" alt="food"/>
+          <Image width={150} height={150} src="/spices3.png" alt="food"/>
           </div>
           
           <div className="pr-3 md:pr-10 -mt-5 md:-mt-20">
@@ -44,14 +45,14 @@ export default function Home() {
           </p>
           </div>
           <div className="pt-3 md:pt-10 pb-3 md:pb-10 px-10 md:px-40">
-           <Image width={250} height={500} src="/img-3.png" alt="food" />
+           <Image width={250} height={500} src="/img-3.png" alt="food"/>
            </div>
         </div>
       </section>
 
       {/*2nd section*/}
 
-      <section className=" bg-white bg-[url('/img-4.jpg')] bg-no-repeat bg-right-top bg-[length:400px_300px]">
+      <section className="bg-white bg-[url('/img-4.jpg')] bg-no-repeat bg-right-top bg-[length:400px_300px]">
          
       <h1 className="font-bold font-serif text-lime-950 pt-20 md:pt-40 px-3 md:px-10 text-2xl md:text-4xl">Our Menu</h1>
     <p className="text-xs md:text-base text-black-90 pt-2 px-3 md:px-10">
@@ -132,13 +133,13 @@ export default function Home() {
     {/* Left side */}
     <div className="pt-20 px-20">
     <div className="-mb-32">
-           <Image width={300} height={300} src="/img-6.png" alt="food" />
+           <Image width={300} height={300} src="/img-6.png" alt="food"/>
            </div>
-           <Image width={500} height={600} src="/img-5.png" alt="food" />
+           <Image width={500} height={600} src="/img-5.png" alt="food"/>
            </div>
 
         {/* Right Side */}
-        <div className="flex-1 ">
+        <div className="flex-1">
           <div className="pt-1">
           <h1 className="font-bold font-serif mt-5 text-lime-950 text-5xl">Excellent <br></br> Cook</h1>
           <p className="text-sm text-black mt-2 mr-20">
@@ -147,7 +148,7 @@ export default function Home() {
           </div>
 
           <div className="pt-5 px-36">
-           <Image width={300} height={300} src="/img-6.png" alt="food" />
+           <Image width={300} height={300} src="/img-6.png" alt="food"/>
            </div>
            
            </div>
@@ -166,8 +167,8 @@ export default function Home() {
     </div>
     <div className="h-auto max-w-full rounded-lg">
     <div className="ml-20">
-        <Image width={100} height={100} src="/CircleIcon-2.png" alt="Carrot">
-        </Image></div>
+        <Image width={100} height={100} src="/CircleIcon-2.png" alt="Carrot"/>
+        </div>
         
    <h1 className="font-bold font-serif text-center mt-5 text-lime-950 text-2xl">Premium Quality</h1>
    <p className="text-sm text-black text-center mt-2">
@@ -175,8 +176,8 @@ export default function Home() {
     </div>
     <div className="h-auto max-w-full rounded-lg">
     <div className="ml-20">
-        <Image width={100} height={100} src="/CircleIcon-3.png" alt="Lemon">
-        </Image></div>
+        <Image width={100} height={100} src="/CircleIcon-3.png" alt="Lemon"/>
+        </div>
         
    <h1 className="font-bold font-serif text-center mt-5 text-lime-950 text-2xl">Premium Quality</h1>
    <p className="text-sm text-black text-center mt-2">
@@ -189,9 +190,9 @@ export default function Home() {
     <div className="grid md:grid-cols-2 px-20 pt-28 pb-28 gap-10 bg-white">
     <div className="h-auto max-w-full rounded-lg">
     <div className="ml-20 w-96 h-96">
-        <Image width={800} height={800} src="/Feature Image-1.png" alt="Fish"></Image></div>
+        <Image width={800} height={800} src="/Feature Image-1.png" alt="Fish"/></div>
     <div className="flex px-20 pt-10">
-        <Image width={50} height={50} src="/Avatar-1.png" alt="Fish"></Image>
+        <Image width={50} height={50} src="/Avatar-1.png" alt="Fish"/>
         <p className="text-xs text-lime-700 text-center mt-2">
             Julie Christie * October 17,2021 * 3:33 pm * 2 comments</p>
             </div>
@@ -207,9 +208,9 @@ export default function Home() {
 
     <div className="h-auto max-w-full rounded-lg">
     <div className="ml-20 w-96 h-96">
-        <Image width={800} height={800} src="/Feature Image-2.png" alt="Fish"></Image></div>
+        <Image width={800} height={800} src="/Feature Image-2.png" alt="Fish"/></div>
     <div className="flex px-20 pt-10">
-        <Image width={50} height={50} src="/Avatar-2.png" alt="Fish"></Image>
+        <Image width={50} height={50} src="/Avatar-2.png" alt="Fish"/>
         <p className="text-xs text-lime-700 text-center mt-2">
             Julie Christie * October 17,2021 * 3:33 pm * 2 comments</p>
             </div>
@@ -256,11 +257,11 @@ export default function Home() {
     </div>
    
     <div className="grid md:grid-cols-3 px-40 pt-20 gap-10">
-    <Image width={300} height={400} src="/MenuCategory-1.png" alt="Starter"></Image>
+    <Image width={300} height={400} src="/MenuCategory-1.png" alt="Starter"/>
                           
-    <Image width={300} height={400} src="/MenuCategory-2.png" alt="mains"></Image>
+    <Image width={300} height={400} src="/MenuCategory-2.png" alt="mains"/>
        
-    <Image width={300} height={400} src="/MenuCategory-3.png" alt="Soups"></Image>
+    <Image width={300} height={400} src="/MenuCategory-3.png" alt="Soups"/>
     </div>
     </div>
 
@@ -272,13 +273,13 @@ export default function Home() {
             
     </div>
     <div className="-mt-20 px-60 float-right">
-            <Image object-right width={100} height={100} src="/img-7.png" alt="Starter"></Image>
+            <Image object-right width={100} height={100} src="/img-7.png" alt="Starter"/>
             </div>
     </div>
 
     <div className="grid grid-cols-3 gap-1 ml-24 px-40 pt-20 pb-20">
     <div>
-    <Image width={80} height={80} src="/Avatar-3.png" alt="Avater"></Image>
+    <Image width={80} height={80} src="/Avatar-3.png" alt="Avater"/>
     </div>
 
     <div>
@@ -287,7 +288,7 @@ export default function Home() {
     </div>
 
     <div>
-    <Image width={80} height={80} src="/arrow.png" alt="Avater"></Image>
+    <Image width={80} height={80} src="/arrow.png" alt="Avater"/>
     </div>
     </div>
     </main>

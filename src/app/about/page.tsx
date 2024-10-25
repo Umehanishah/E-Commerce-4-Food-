@@ -1,4 +1,5 @@
-import Image from "next/image"
+import Image from "next/image";
+
 export default function About() {
   return (
     <main className="title">
@@ -9,14 +10,14 @@ export default function About() {
 
       {/* 2nd Section */}
   <section>
-       <div className="grid grid-cols-2 gap-1 m-20 ">
+       <div className="grid grid-cols-2 gap-1 m-20">
          <div className="bg-[url('/about-9.png')] bg-no-repeat bg-right-top bg-[length:150px_150px]">
           <h1 className="text-6xl font-serif font-bold pt-20 text-lime-950">Our Story</h1>
-          <p className="text-sm pt-5 pr-5 text-black ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis optio, quia cupiditate amet iste enim autem libero, et eaque minus odit porro nisi perferendis provident, vel repudiandae placeat officia quasi.</p>
+          <p className="text-sm pt-5 pr-5 text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis optio, quia cupiditate amet iste enim autem libero, et eaque minus odit porro nisi perferendis provident, vel repudiandae placeat officia quasi.</p>
           </div>
           <div>
 
-          <Image width={500} height={400} src="/about-2.png" alt="food" />
+          <Image width={500} height={400} src="/about-2.png" alt="food"/>
           </div>
           </div>
            </section>
@@ -29,7 +30,7 @@ export default function About() {
        <div className="text-center">
        <h2 className="text-4xl font-serif font-semibold pt-10">Resturent Manager</h2>
        <p className="text-sm font-medium pt-5 pb-5">Carson Hugn</p>
-          <Image width={500} height={400} src="/about-3.png" alt="manager" />
+          <Image width={500} height={400} src="/about-3.png" alt="manager"/>
           <p className="text-sm  pt-80 pb-10 pl-28 text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa fuga doloremque corporis porro veritatis quis laborum. Dolores perferendis, a tempora, iure neque aperiam eveniet nostrum consequatur vitae assumenda nemo. Animi?</p>
 
           </div>
@@ -38,7 +39,7 @@ export default function About() {
           <p className="text-sm pb-28 text-left pr-28 text-black pt-60">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis optio, quia cupiditate amet iste enim autem libero, et eaque minus odit porro nisi perferendis provident, vel repudiandae placeat officia quasi.</p>
           <h2 className="text-4xl font-serif font-semibold pt-10">Executive Chef</h2>
           <p className="text-sm font-medium pt-5 pb-5">Carson Hugn</p>
-          <Image width={500} height={400} src="/about-4.png" alt="manager" />
+          <Image width={500} height={400} src="/about-4.png" alt="manager"/>
           </div>
           
           </div>
@@ -51,7 +52,7 @@ export default function About() {
           <h2 className="text-5xl font-semibold text-white font-serif text-center pt-40">It Looks delicious</h2>
           <p className="text-sm text-white text-center pt-5 pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           <div className="pt-10 mx-60 px-80">
-          <Image width={100} height={100} src="/about-5.2.png" alt="food" />
+          <Image width={100} height={100} src="/about-5.2.png" alt="food"/>
           </div>
           </div>
          </div>
@@ -63,24 +64,24 @@ export default function About() {
         
        <div className="grid grid-cols-2 gap-10 m-10">
        <div>
-          <Image width={500} height={400} src="/about-6.png" alt="food" />
+          <Image width={500} height={400} src="/about-6.png" alt="food"/>
           
           <h1 className="text-6xl font-serif font-bold pt-60 text-lime-950"><span className="text-4xl">03.</span> Bake</h1>
-          <p className="text-sm pt-5 pr-10 pb-5 text-black ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis optio, quia cupiditate amet iste enim autem libero, et eaque minus odit porro nisi perferendis provident, vel repudiandae placeat officia quasi.</p>
+          <p className="text-sm pt-5 pr-10 pb-5 text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis optio, quia cupiditate amet iste enim autem libero, et eaque minus odit porro nisi perferendis provident, vel repudiandae placeat officia quasi.</p>
            
-          <Image width={500} height={400} src="/about-8.png" alt="food" />
-          <Image width={200} height={200} src="/about-10.png" alt="food" />
+          <Image width={500} height={400} src="/about-8.png" alt="food"/>
+          <Image width={200} height={200} src="/about-10.png" alt="food"/>
           
           </div>
 
          <div>
           <h1 className="text-6xl font-serif font-bold pt-20 text-lime-950"><span className="text-4xl">01.</span> Slice</h1>
-          <p className="text-sm pt-5 pr-10 text-black ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis optio, quia cupiditate amet iste enim autem libero, et eaque minus odit porro nisi perferendis provident, vel repudiandae placeat officia quasi.</p>
+          <p className="text-sm pt-5 pr-10 text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis optio, quia cupiditate amet iste enim autem libero, et eaque minus odit porro nisi perferendis provident, vel repudiandae placeat officia quasi.</p>
           
-          <Image width={500} height={400} src="/about-7.png" alt="food" className="pt-60" />
+          <Image width={500} height={400} src="/about-7.png" alt="food" className="pt-60"/>
           
           <h1 className="text-6xl font-serif font-bold pt-10 text-lime-950"><span className="text-4xl">02.</span> Pickled</h1>
-          <p className="text-sm pt-5 pr-10 text-black ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis optio, quia cupiditate amet iste enim autem libero, et eaque minus odit porro nisi perferendis provident, vel repudiandae placeat officia quasi.</p>
+          <p className="text-sm pt-5 pr-10 text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis optio, quia cupiditate amet iste enim autem libero, et eaque minus odit porro nisi perferendis provident, vel repudiandae placeat officia quasi.</p>
           </div>
           </div>
            </section>

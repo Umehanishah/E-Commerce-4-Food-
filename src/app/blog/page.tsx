@@ -1,4 +1,5 @@
-import Image from "next/image"
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main className="title">
@@ -16,9 +17,9 @@ export default function Home() {
     <div className="grid md:grid-cols-2 px-20 pt-10 pb-28 gap-10 bg-white">
     <div className="h-auto max-w-full rounded-lg">
     <div className="ml-20 w-96 h-96">
-        <Image width={800} height={800} src="/blog-2.png" alt="Fish"></Image></div>
+        <Image width={800} height={800} src="/blog-2.png" alt="Fish"/></div>
     <div className="flex px-20 pt-10">
-        <Image width={50} height={50} src="/blog-3.png" alt="Fish"></Image>
+        <Image width={50} height={50} src="/blog-3.png" alt="Fish"/>
         <p className="text-xs text-lime-700 text-center mt-2">
             Julie Christie * October 17,2021 * 3:33 pm * 2 comments</p>
             </div>
@@ -34,11 +35,11 @@ export default function Home() {
 
     <div className="h-auto max-w-full rounded-lg">
     <div className="ml-20 w-96 h-96">
-        <Image width={800} height={800} src="/blog-4.png" alt="Fish"></Image></div>
+        <Image width={800} height={800} src="/blog-4.png" alt="Fish"/></div>
     <div className="flex px-20 pt-10">
-        <Image width={50} height={50} src="/blog-5.png" alt="Fish"></Image>
+        <Image width={50} height={50} src="/blog-5.png" alt="Fish"/>
         <p className="text-xs text-lime-700 text-center mt-2">
-            Julie Christie * October 17,2021 * 3:33 pm * 2 comments</p>
+            Julie Christie / October 17,2021 / 3:33 pm / 2 comments</p>
             </div>
    <h1 className="font-medium font-serif px-20 text-left mt-5 text-lime-950 text-2xl">Fruit and vegetables and <br></br>
    protection against diseases</h1>
@@ -60,11 +61,11 @@ export default function Home() {
     <div className="grid md:grid-cols-2 px-20 pt-10 pb-28 gap-10 bg-white">
     <div className="h-auto max-w-full rounded-lg">
     <div className="ml-20 w-96 h-96">
-        <Image width={800} height={800} src="/blog-6.png" alt="Fish"></Image></div>
+        <Image width={800} height={800} src="/blog-6.png" alt="Fish"/></div>
     <div className="flex px-20 pt-10">
-        <Image width={50} height={50} src="/blog-7.png" alt="Fish"></Image>
+        <Image width={50} height={50} src="/blog-7.png" alt="Fish"/>
         <p className="text-xs text-lime-700 text-center mt-2">
-            Julie Christie * October 17,2021 * 3:33 pm * 2 comments</p>
+            Julie Christie / October 17,2021 / 3:33 pm / 2 comments</p>
             </div>
    <h1 className="font-medium font-serif px-20 text-left mt-5 text-lime-950 text-2xl">Fruit and vegetables and <br></br>
    protection against diseases</h1>
@@ -78,11 +79,11 @@ export default function Home() {
 
     <div className="h-auto max-w-full rounded-lg">
     <div className="ml-20 w-96 h-96">
-        <Image width={800} height={800} src="/blog-8.png" alt="Fish"></Image></div>
+        <Image width={800} height={800} src="/blog-8.png" alt="Fish"/></div>
     <div className="flex px-20 pt-10">
-        <Image width={50} height={50} src="/blog-9.png" alt="Fish"></Image>
+        <Image width={50} height={50} src="/blog-9.png" alt="Fish"/>
         <p className="text-xs text-lime-700 text-center mt-2">
-            Julie Christie * October 17,2021 * 3:33 pm * 2 comments</p>
+            Julie Christie / October 17,2021 / 3:33 pm / 2 comments</p>
             </div>
    <h1 className="font-medium font-serif px-20 text-left mt-5 text-lime-950 text-2xl">Fruit and vegetables and <br></br>
    protection against diseases</h1>
@@ -102,11 +103,11 @@ export default function Home() {
 <div className="grid md:grid-cols-2 px-20 pt-10 pb-28 gap-10 bg-white">
 <div className="h-auto max-w-full rounded-lg">
 <div className="ml-20 w-96 h-96">
-<Image width={800} height={800} src="/blog-10.png" alt="Fish"></Image></div>
+<Image width={800} height={800} src="/blog-10.png" alt="Fish"/></div>
 <div className="flex px-20 pt-10">
-<Image width={50} height={50} src="/blog-11.png" alt="Fish"></Image>
+<Image width={50} height={50} src="/blog-11.png" alt="Fish"/>
 <p className="text-xs text-lime-700 text-center mt-2">
-    Julie Christie * October 17,2021 * 3:33 pm * 2 comments</p>
+    Julie Christie / October 17,2021 / 3:33 pm / 2 comments</p>
     </div>
 <h1 className="font-medium font-serif px-20 text-left mt-5 text-lime-950 text-2xl">Fruit and vegetables and <br></br>
 protection against diseases</h1>
@@ -120,11 +121,11 @@ Read More <Image width={20} height={10} src="/arrow-2.png" alt="arrow"/> </p>
 
 <div className="h-auto max-w-full rounded-lg">
 <div className="ml-20 w-96 h-96">
-<Image width={800} height={800} src="/blog-12.png" alt="Fish"></Image></div>
+<Image width={800} height={800} src="/blog-12.png" alt="Fish"/></div>
 <div className="flex px-20 pt-10">
-<Image width={50} height={50} src="/blog-13.png" alt="Fish"></Image>
+<Image width={50} height={50} src="/blog-13.png" alt="Fish"/>
 <p className="text-xs text-lime-700 text-center mt-2">
-    Julie Christie * October 17,2021 * 3:33 pm * 2 comments</p>
+    Julie Christie / October 17,2021 / 3:33 pm / 2 comments</p>
     </div>
 <h1 className="font-medium font-serif px-20 text-left mt-5 text-lime-950 text-2xl">Fruit and vegetables and <br></br>
 protection against diseases</h1>

@@ -1,4 +1,4 @@
-import Link from "next/link"
+
 
 function Nav(){
     return(
@@ -17,23 +17,23 @@ function Nav(){
             <ul className="flex-1 gap-x-3 md:gap-x-10 mr-3 md:mr-10 mt-3 md:mt-5 my-3 md:my-10 text-white font-serif font-medium md:font-semibold">
                         
                         <li>
-                        <Link href="/" className="hover:bg-lime-800 hover:px-20 md:hover:px-40 pt-1 md:pt-2 pb-1 md:pb-2 hover:rounded-sm">HOME</Link>
+                        <a href="/" className="hover:bg-lime-800 hover:px-20 md:hover:px-40 pt-1 md:pt-2 pb-1 md:pb-2 hover:rounded-sm">HOME</a>
                         </li>
                         <hr></hr>
                         <li>
-                         <Link href="/about" className="hover:bg-lime-800 hover:px-20 md:hover:px-40 pt-1 md:pt-2 pb-1 md:pb-2 hover:rounded-sm">ABOUT</Link>
+                         <a href="/about" className="hover:bg-lime-800 hover:px-20 md:hover:px-40 pt-1 md:pt-2 pb-1 md:pb-2 hover:rounded-sm">ABOUT</a>
                          </li>
                          <hr></hr>
                         <li>
-                        <Link href="/menu" className="hover:bg-lime-800 hover:px-20 md:hover:px-40 pt-1 md:pt-2 pb-1 md:pb-2 hover:rounded-sm">MENU</Link>
+                        <a href="/menu" className="hover:bg-lime-800 hover:px-20 md:hover:px-40 pt-1 md:pt-2 pb-1 md:pb-2 hover:rounded-sm">MENU</a>
                         </li>
                         <hr></hr>
                         <li>
-                        <Link href="/blog" className="hover:bg-lime-800 hover:px-20 md:hover:px-40 pt-1 md:pt-2 pb-1 md:pb-2 hover:rounded-sm">BLOG</Link>
+                        <a href="/blog" className="hover:bg-lime-800 hover:px-20 md:hover:px-40 pt-1 md:pt-2 pb-1 md:pb-2 hover:rounded-sm">BLOG</a>
                         </li>
                         <hr></hr>
                         <li>
-                        <Link href="/contact" className="hover:bg-lime-800 hover:px-20 md:hover:px-40 pt-1 md:pt-2 pb-1 md:pb-2 hover:rounded-sm">CONTACT</Link>
+                        <a href="/contact" className="hover:bg-lime-800 hover:px-20 md:hover:px-40 pt-1 md:pt-2 pb-1 md:pb-2 hover:rounded-sm">CONTACT</a>
                         </li>
                     </ul>
                 </div>
@@ -44,10 +44,10 @@ function Nav(){
             <div>
                 <ul className="flex gap-x-3 md:gap-x-10 mt-3 md:mt-10 mx-3 md:mx-20 text-white font-serif font-medium md:font-semibold">
                         <li>
-                            <Link href="/"><button type="button" className="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-white hover:bg-gray-100 hover:text-lime-950"> +86 852 346 000</button> </Link>
+                        <a href="/"><button type="button" className="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-white hover:bg-gray-100 hover:text-lime-950"> +86 852 346 000</button> </a>
                         </li>
                         <li>
-                        <Link href="/"><button type="button" className="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-white focus:outline-none rounded-none border border-white hover:bg-gray-100 hover:text-lime-950">Alternative</button></Link>
+                        <a href="/"><button type="button" className="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-white focus:outline-none rounded-none border border-white hover:bg-gray-100 hover:text-lime-950">Alternative</button></a>
                         </li>
                     </ul>                    
               
